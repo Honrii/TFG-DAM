@@ -1,0 +1,57 @@
+body {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    color: black;
+}
+
+li a {
+    background-color: skyblue;
+    float: right;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: green;
+}
+
+.element1 {
+    margin-top: 10px;
+    background-color: black;
+    padding: 150px;
+}
+
+.element2 {
+    margin-top: 10px;
+    background-color: black;
+    padding: 150px;
+}
+
+#inps {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+.btnRegister {
+    border: none;
+    color: red;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
