@@ -20,7 +20,7 @@
                         <input type="password" placeholder="Contraseña" name="pwd"/>    
                         <p><button type="submit" name="regist">Registrarse</button></p>
                     </form>
-                    <a href="./login.php">Ya tienes login, logueate aquí</a>
+                    <a href="./login.php"> Ya tienes login, logueate aquí</a>
                 </section>
             </div>
         </form>

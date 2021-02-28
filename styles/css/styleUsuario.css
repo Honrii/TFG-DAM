@@ -55,7 +55,6 @@ body {
     padding: 140px 50px;
     float: right;
     border-radius: 15px;
-
 }
 
 .right-box span {
@@ -79,7 +78,6 @@ body {
     outline: 0;
     font-size: 20px;
     color: black;
-    font-family: 'Ubuntu Mono', monospace;
 }
 
 .right-box input:focus {
@@ -97,13 +95,36 @@ body {
     box-shadow: 2px 2px 20px 2px #ffe27d;
     display: block;
     font-size: 22px;
-    font-family: 'Ubuntu Mono', monospace;
     margin: auto;
     margin-top: 50px;
-
 }
 
 .right-box button a {
     text-decoration: none;
     color: white;
 }
+
+a {
+    margin-top: 50px;
+}
+
+/* unvisited link */
+a:link {
+    color: #464646;
+}
+
+/* visited link */
+a:visited {
+    color: #464646;
+}
+
+/* mouse over link */
+a:hover {
+    color: #464646;
+}
+
+/* selected link */
+a:active {
+    color: #464646;
+}
+
