@@ -20,21 +20,20 @@ body {
 }
 
 #inps {
-    margin-left: 25%;
-    margin-right: 21%;
-    border: 33px solid red;
+    margin-left: 25% !important;
+    margin-right: 21% !important;
 }
 
 form {
-    padding: 20px;
+    padding: 27px;
     background-color: #4CAF50;
 }
 
 input {
-    padding: 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 10px;
+    padding: 10px !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    border-radius: 10px !important;
 }
 
 #empresas {
@@ -152,4 +151,13 @@ input {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    height: 100%;
+}
+
+#btn-navbar {
+    margin-top: 4%;
+}
+
+#txt-suscribe {
+    margin-top: 20px !important;
 }
