@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/css/paginaPrincipal.css">
+    <link rel="stylesheet" href="../../styles/css/index.css">
     <title>Pagina Principal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -63,7 +64,7 @@
                         src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_300,q_auto,w_300/mag/2019/05/17084659/islas-baleares-mallorca.jpg"
                         alt="Card image cap">
                     <h3>Las islas siempre nos traen buenos recuerdos</h3>
-                    <p>Las calas de baleares, dignas del paraíso, te están esperando para tus vacaciones</p>
+                    <p style="font-size: 12px;">Las calas de baleares, dignas del paraíso, te están esperando para tus vacaciones</p>
                 </div>
             </div>
             <div class="column">
@@ -121,6 +122,52 @@
 
     </section>
 
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="../../styles/img/trivago.webp" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="container">
 
@@ -135,25 +182,6 @@
                     </form>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col">
-                    One of three columns
-                </div>
-                <div class="col">
-                    One of three columns
-                </div>
-                <div class="col">
-                    One of three columns
-                </div>
-            </div>
-
-            <div class="row" style=" background-color: blue; margin-right: 10%;">
-                <div class="col">
-                    <h6 style="margin-left: 39%; font-size: 222%;"> JPicker </h6>
-                </div>
-            </div>
-        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
