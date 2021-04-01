@@ -24,9 +24,9 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <section class="element1">
+    <section class="element1" class="w3-row-padding" >
         <h1>ELEMENT 1</h1>
-        <div id="inps">
+        <div id="inps" class="w3-third">
             <form>
                 <i class="fa fa-search" aria-hidden="true"></i><input type="text" id="t1" placeholder="Origen:">
                 <!-- API Google Maps Buscador https://www.youtube.com/watch?v=43-OclfQ68I-->
@@ -40,7 +40,7 @@
                 <input type="submit" value="Buscar">
             </form>
         </div>
-        <div class="row">
+        <div class="row" class="w3-third">
             <div class="column">
                 <div class="card">
                     <img class="card-img-top"
