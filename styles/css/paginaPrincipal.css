@@ -13,18 +13,16 @@ h3 {
 .element1 {
     background-color: rgb(151, 146, 146);
     /*padding: 150px; */
-    height: 82vh;
+    height: 100vh;
 }
 
-.element2 {
-    margin-top: 10px;
+#section2 {
     background-color: black;
-    padding: 150px;
-    height: 82vh;
+    height: 100vh;
 }
 
-#inps {
-    height: 25% !important;
+.card-img-top, .card {
+    border-radius: 15px !important;
 }
 
 form {

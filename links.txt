@@ -1,1 +1,7 @@
 OpenTrip: 5ae2e3f221c38a28845f05b6da2f890cd683391e44c61c06586b4642
+
+https://api.opentripmap.com/0.1/en/places/geoname?name=barcelona&apikey=5ae2e3f221c38a28845f05b6da2f890cd683391e44c61c06586b4642
+
+https://api.opentripmap.com/0.1/en/places/geoname?apikey=5ae2e3f221c38a28845f05b6da2f890cd683391e44c61c06586b4642&name=barcelona
+
+https://api.opentripmap.com/0.1/en/places/radius?radius=5000&lon=2.15899&lat=41.38879&apikey=5ae2e3f221c38a28845f05b6da2f890cd683391e44c61c06586b4642
