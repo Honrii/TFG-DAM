@@ -62,16 +62,37 @@
         $personas = $_POST["personas"];
 
         echo "Origen: " . $origen . "Destino: " . $destino . "fecha_inicio: " . $fecha_inicio . "fecha_fin: " . $fecha_fin . "personas: " . $personas;
-
-        /* if (empty($_POST["trip-start"]) || strrev($_POST['trip-start']) < date("Y-m-d") || strrev($_POST['trip-finish']) < date("Y-m-d") {
-
-        } */
     }
 
     $ciudadLatLon = file_get_contents('https://api.opentripmap.com/0.1/en/places/geoname?name=' . $destino . '&apikey=5ae2e3f221c38a28845f05b6da2f890cd683391e44c61c06586b4642');
     $ciudadLatLon = json_decode($ciudadLatLon, true);
     var_dump($ciudadLatLon);
 
+    foreach ($ciudadLatLon as $value) {
+        $latitud = $value['lat'];
+        $longitud = $value['lon'];
+    }
+
+    echo $latitud, $longitud;
+//RapidAPI
+    $client = new http\Client;
+    $request = new http\Client\Request;
+ 
+    $request->setRequestUrl('https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/UK/GBP/en-GB/');
+    $request->setRequestMethod('GET');
+    $request->setQuery(new http\QueryString([
+        'query' => 'Stockholm'
+    ]));
+ 
+    $request->setHeaders([
+        'x-rapidapi-key' => '3619a526b1mshd4fe8d4d547f794p19d9f3jsn615d2afc07b6',
+        'x-rapidapi-host' => 'skyscanner-skyscanner-flight-search-v1.p.rapidapi.com'
+    ]);
+
+    $client->enqueue($request)->send();
+    $response = $client->getResponse();
+    
+    echo $response->getB
     ?>
 
 </body>

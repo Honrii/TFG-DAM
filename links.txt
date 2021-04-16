@@ -5,3 +5,11 @@ https://api.opentripmap.com/0.1/en/places/geoname?name=barcelona&apikey=5ae2e3f2
 https://api.opentripmap.com/0.1/en/places/geoname?apikey=5ae2e3f221c38a28845f05b6da2f890cd683391e44c61c06586b4642&name=barcelona
 
 https://api.opentripmap.com/0.1/en/places/radius?radius=5000&lon=2.15899&lat=41.38879&apikey=5ae2e3f221c38a28845f05b6da2f890cd683391e44c61c06586b4642
+
+
+https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/UK/GBP/en-GB/?query=Stockholm&rapidapi-key=3619a526b1mshd4fe8d4d547f794p19d9f3jsn615d2afc07b6
+
+Vuelos a LAX 
+https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsedates/v1.0/US/USD/en-US/SFO-sky/LAX-sky/2021-09-01?inboundpartialdate=2021-12-01&rapidapi-key=3619a526b1mshd4fe8d4d547f794p19d9f3jsn615d2afc07b63619a526b1mshd4fe8d4d547f794p19d9f3jsn615d2afc07b6
+
+https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browseroutes/v1.0/US/USD/en-US/SFO-sky/ORD-sky/2021-09-01?inboundpartialdate=2021-12-01&rapidapi-key=ff619d6568msh1583c92c0565b16p12f2ccjsn490d1f8c4762
