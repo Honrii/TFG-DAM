@@ -23,7 +23,8 @@ if (isset($_POST['regist'])) {
   	$res_e = mysqli_query($sql_e);
 
   	if (mysqli_num_rows($res_u) > 0) {
-  	  $name_error = "Sorry... username already taken"; 	
+  	 // $name_error = "Sorry... username already taken"; 	
+     echo "Nombre de usuario existente"
   	}else if(mysqli_num_rows($res_e) > 0){
   	  $email_error = "Sorry... email already taken"; 	
   	}else{
