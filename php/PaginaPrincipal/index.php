@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../../styles/css/paginaPrincipal.css">
     <link rel="stylesheet" href="../../styles/css/index.css">
+    <!--  Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../styles/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../styles/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../styles/img/favicon-16x16.png">
+    <link rel="manifest" href="../../styles/img/site.webmanifest">
+    <link rel="mask-icon" href="../../styles/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+ 
     <title>Pagina Principal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
