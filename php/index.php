@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="./styles/css/paginaPrincipal.css">
-    <link rel="stylesheet" href="./styles/css/index.css">
+    <link rel="stylesheet" href="../../styles/css/paginaPrincipal.css">
+    <link rel="stylesheet" href="../../styles/css/index.css">
     <!--  Favicon  -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./styles/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./styles/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./styles/img/favicon-16x16.png">
-    <link rel="manifest" href="./styles/img/site.webmanifest">
-    <link rel="mask-icon" href="./styles/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../styles/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../styles/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../styles/img/favicon-16x16.png">
+    <link rel="manifest" href="../../styles/img/site.webmanifest">
+    <link rel="mask-icon" href="../../styles/img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
  
@@ -23,17 +23,19 @@
 
 <body>
     <div class="topnav" id="myTopnav">
-        <a href="#home"><img id="logo" src="./styles/img/logo.PNG" alt="" width="30" height="30"></a>
-        <a href="./php/hoteles.php" id="btn-navbar">HOTEL</a>
-        <a href="./php/coches.php" id="btn-navbar">COCHE</a>
+        <a href="#home"><img id="logo" src="../../styles/img/logo.PNG" alt="" width="30" height="30"></a>
+        <a href="../paginaHoteles/hoteles.php" id="btn-navbar">HOTEL</a>
+        <a href="../paginaCoches/coches.php" id="btn-navbar">COCHE</a>
         <a href="#perfil" id="btn-navbar">PERFIL</a>
-        <a href="./php/login.php" style="float:right" id="btn-navbar">Login</a>
-        <a href="./php/register.php" style="float:right" id="btn-navbar">Registro</a>
+        <a href="../loginRegister/login.php" style="float:right" id="btn-navbar">Login</a>
+        <a href="../loginRegister/register.php" style="float:right" id="btn-navbar">Registro</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
     <section class="element1">
+    <h1>ENUEVA WEBEEEE</h1>
+    <h1>ELEMENT 1</h1>
         <h1>ELEMENT 1</h1>
         <div id="inps">
             <form action="intencionBusqueda.php" method="post">
